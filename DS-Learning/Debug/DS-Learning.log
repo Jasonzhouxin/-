@@ -1,0 +1,7 @@
+﻿  array.c
+f:\git使用方法\ds-learning\ds-learning\array.c(33): warning C4013: “malloc”未定义；假设外部返回 int
+f:\git使用方法\ds-learning\ds-learning\array.c(37): warning C4013: “exit”未定义；假设外部返回 int
+f:\git使用方法\ds-learning\ds-learning\array.c(41): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+f:\git使用方法\ds-learning\ds-learning\array.c(42): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+f:\git使用方法\ds-learning\ds-learning\array.c(44): warning C4098: “init_arr”:“void”函数返回值
+  DS-Learning.vcxproj -> F:\git使用方法\DS-Learning\Debug\DS-Learning.exe

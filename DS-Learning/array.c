@@ -8,21 +8,22 @@ struct Arr
 };
 
 void init_arr(struct Arr * pArr, int length);
-bool append_arr();
-bool insert_arr();
-bool delete_arr();
-int get();
-bool is_empty();
-bool is_full();
-void sort_arr();
-void show_arr();
-void inversion_arr();
+//bool append_arr();
+//bool insert_arr();
+//bool delete_arr();
+//int get();
+//bool is_empty();
+//bool is_full();
+//void sort_arr();
+void show_arr(struct Arr * pArr);
+//void inversion_arr();
 
 int main()
 {
 	struct Arr arr;
 
 	init_arr(&arr, 6);
+	show_arr(&arr);
 
 	return 0;
 }
@@ -43,7 +44,15 @@ void init_arr(struct Arr * pArr, int length)
 	return 0;
 }
 
-void show_arr()
+void show_arr(struct Arr * pArr)
 {
-
+	if (0 == pArr->cnt)
+	{
+		printf("Êý×éÎª¿Õ£¡\n");
+	}
+	else
+	{
+		for (int i = 0; i < pArr->cnt; i++)
+			printf("%d", pArr->pBase[i]);
+	}
 }
